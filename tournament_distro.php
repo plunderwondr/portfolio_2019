@@ -55,9 +55,18 @@ if(isset($_GET["playerCount"]))
 	/*
 	Processing loop
 	*/
+
+	$resultsArray = [];
+	$preProcess = [];
+	$postProcess = [];
 	for ($i= 0; $i<= $roundCount; $i++)
 	{
+		// array = [playerNo][Wins][Losses][array(played PlayerNo)]
+		//grab array, add results to postSort
 
+
+
+		// add results 
 	}
 	/*
 	Output 
