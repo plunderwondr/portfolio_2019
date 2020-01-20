@@ -1,0 +1,5 @@
+2020/01/19 -- Seperated index file: Basic seperation of index so it fits onto a single page, I believe I had to include php for this to work, 
+                otherwise javascript was required and the only advantage to that being maybe this page doesnt need php otherwise, 
+                but this is an optimization inquiry that this site should not really need.
+
+                
