@@ -32,7 +32,7 @@
 
     <!-- Contact Section -->
     <?php
-      include 'contact.html';
+      include 'contact-info.html';
     ?>
 
     <!-- Footer -->
