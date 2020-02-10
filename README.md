@@ -1,4 +1,4 @@
-"# portfolio" 
+Reegan Beveridge 2020 Started Portfolio Page
 
-Purging previous "Version" of portfolio that was never a correct uploaded version of it's state.
- The first upload of 2020 should be the 2018 version of Portfolio from local machine using an old boostrap template.
+The contents of this page are a digital portfolio to act as another layer of information besides resume.
+
