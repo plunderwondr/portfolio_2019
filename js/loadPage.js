@@ -5,5 +5,5 @@
         $("#about").load('about.html'),
         $("#portfolio").load('portfolio.html'),
         $("#footer").load('footer.html'),
-        $("#contact").load('contact.html')
+        $("#contact").load('contact-info.html')
     })
