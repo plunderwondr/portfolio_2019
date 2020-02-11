@@ -4,6 +4,5 @@
         $("#navbar").load('navbar.html'),
         $("#about").load('about.html'),
         $("#portfolio").load('portfolio.html'),
-        $("#footer").load('footer.html'),
-        $("#contact").load('contact-info.html')
+        $("#footer").load('footer.html')
     })

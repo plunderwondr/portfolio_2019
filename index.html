@@ -2,14 +2,12 @@
 <html lang="en">
 
 <head>
-  <!--Required to format page -->
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The portfolio and resume page of Reegan Beveridge an Ontario, Canada 
-  local programmer, developer and designer. With experience in eSports, website, and video game development">
+  <meta name="description" content="The portfolio and resume page of Reegann Beveridge a Ontario Canada 
+  local programmer, developer and designer. With experience in e-sports, website, and video game development">
   <meta name="author" content="Reegan Beveridge">
-  <link rel="shortcut icon" type="image/png" href="img/favicon2.png"/>
+
   <title>Reegan's Portfolio</title>
 
   <!-- Bootstrap core CSS -->
@@ -26,12 +24,33 @@
   <!-- Custom styles for this template -->
   <link href="css/freelancer.css" rel="stylesheet">
 
-</head>
 
+</head>
 
   <body id="page-top">
     <!-- Navigation -->
-  <div id="navbar"></div>
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- masthead here -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
@@ -43,13 +62,349 @@
     </header>
 
     <!-- About Section -->
-    <div id="about"></div>
+    <section class=" mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase">About</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">
+              With the desire to solve puzzles, as well as improve
+              and optimize workflows -- programming has created
+              a wonderful outlet for me to find problems,
+              determine multiple solutions and act on the solution
+              that fits for the current task at hand.
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">
+            After working on small 3 <b>video games</b>, integrating League of Legends tournament system into clients website, 
+            <b>database access features</b> and numerous other projects (see portfolio) -- 
+            I have found solutions to a very broad spectrum of tasks given to me with a passion for making them happen.
+          </p>
+          </div>
+  </section>
+
     <!-- Portfolio Grid Section -->
-    <div id="portfolio"></div>
+    <section class="portfolio bg-primary text-white" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/GiftTheRiftCrop.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/SwarmioLogo.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/SwarmioLogoTools.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/vilePreview.PNG" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/TechnoBeatsSS.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>   
+     
+     <!-- Portfolio Modals -->
+  
+      <!-- Portfolio Modal 1 -->
+      <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Gift The Rift Landing Page</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/portfolio/GiftTheRiftSS.png" alt="">
+                  <p class="mb-5 lead">
+                      Working with the event organizer, the goal was to make an accessible webpage for people to learn about the event with a few special requirements 
+                      including embedded streams for 6 different streams, and displaying all the celebrity guests in an easy to digest method. The organizer found a couple 
+                      templates -- assembling a mood board, and we went with the one that had most of the visual components implemented. 
+                  </p>
+                  <p class="h4">
+                      Challenges with this project were: 
+                  </p>
+                    <ul class="pre h5 mb-5">
+                      <li class="li">
+                        <B>Communication with the organizer:</B> previous to this project I did not maintain different "versions" of webpages 
+                        to show different options, and would instead make changes on demand. This ended up wasting minutes here and there for the organizer, and now I feel obligated
+                        to avoid in the future.
+                      </li>
+                      <li class="li"> <B>Mobile Accessibility:</B> Until very late in the project it wasn't apparent that it's implementation of mobile dimension's were not well designed, and created  
+                        programming debt that I was not ready for in the time given as I had to complete other projects for the event.
+                      </li>
+                    </ul> 
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Portfolio Modal 2 -->
+        <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Swarmio Website development</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/portfolio/SwarmioHomePage.PNG" alt="">
+                  <p class="mb-5 lead">
+                    Originally a school co-op -- I aquired a full-time position at Ubique(previous parent company) creating a mockup for implementing a League of Legends
+                     tournament system. When I had first arrived they had implemented Minecraft tournaments and were just finishing up automated CS:GO tournaments. 
+                     Having recently worked with the League API -- I knew that there was secretly a way to implement automated tournaments to the spec that Swarmio 
+                     required.
+                  </p>
+                  <p class="h4">
+                    Challenges with this project were: 
+                </p>
+                  <ul class="pre h5 mb-5">
+                    <li class="li"> 
+                      <b>API Access Restrictions:</b> 
+                      With only a one month trial period, it was impossible to receive production access to api keys before that deadline.
+                      So I had to make a functional development build to show off the theoretical functionality & Design of the tournament system and hope that would be enough to continue with this project in a prolongued contract.
+                    </li>
+                    <li class="li">
+                      <b>Lack of guidelines & resources:</b>
+                      As a small startup company, Ibuque did not have a clear focal point in mind. Before I came up with the idea for the website my co-op guide was "figure out how to make something we can use"
+                      given access to the git directory and left to figure it out without impacting main website development. Working on something for weeks to find out that it's not in the companies direct interest can be stressful.
+                      In the end the secret was just adapting to the work environment and realising that no one cared if you made mistakes as long as you were there to help solve problems in a timely manner when you were needed.
+                    </li>
+                  </ul>
+                </p>
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Portfolio Modal 3 -->
+        <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Swarmio's Admin Tools</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/portfolio/SwarmioSATTools.PNG" alt="">
+                  <p class="mb-5">
+                    Shortly after arriving at Swarmio we started running weekly tournaments that required technical staff to be working to be managed as the tournament structure 
+                    was still being tested & implemented (hence the tournaments). So a fellow co-worker and I developed the Admin tools -- allowing less technically inclined staff
+                     to make changes to values in the database in a safe manner.
+                  </p>
+                  <p class="h4">
+                    Challenges with this project were: 
+                  </p>
+                  <ul class="pre h5 mb-5">
+                    <li class="li"> 
+                      <b>Prioritzing tasks:</b> Nearly all the admin tools features were simply a fast patch way for us to be able to handle features that the website had not implemented yet.
+                      Therefore knowing what was going to be released on the main website was important and knowing the difficulty of that task allowed some features to be useful even after implenetation on the main website.
+                    </li>
+                    <li class="li">
+                      <b>Scope:</b>Admin tools could have been a straight substitute for the website for an employee to use, but this was a side-task for both of the developers on it that wasn't 
+                      heavily endorsed originally. Therefore time spent had to be crucial to saving time overall (and in immediate future!) to prove towards management that it was a worth while endeavor. 
+                      In the end admin tools cut my weekly workload in half and let me work remotely during events.
+                    </li>
+                  </ul>
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Portfolio Modal 4 -->
+        <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Vile (Video Game)</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/portfolio/vileSShud.PNG" alt="">
+                  <p class="mb-5 lead">
+                  Vile was a "2.5D" game (Sprite  based beat'em up with 3 dimensional movement), design based off of a previous text based project. As producer/sound designer for this project
+                   it was my duty to distribute tasks, make sure everyone understood those tasks, lead team meetings, and pick up any tasks were extra development effort was required.
+                  </p>
+                  <p class="h4">
+                    Challenges with this project were: 
+                  </p>
+                  <ul class="pre h5 mb-5">
+                    <li class="li">
+                      <B>Design Restrictions:</B> 
+                      With obligations of design elements being implemented without input by our studio, a lot of creative choice was stripped from the studio. This can definetly be seen in the 
+                      varing quality on stages and other element quality control issues. Given the circumstances the overall results was about what could be expected, but in the future I would of tried 
+                      to implement a system to motivate workers instead of a simple trust based system. In addition not letting the strangehold of design decision overhead eat at us, tried to push past them 
+                      by doing the bare minimum for them so we could focus on what we wanted instead --creating a good game.
+                    </li>
+                    <li class="li"> <B>Time Restriction & Multi-Project Work:</B> 
+                      With a 3 month deadline and an unexperienced team already working full time not including the project made it hard to get meetings to happen, expect progress from individuals and meet any deadlines I had implemented.
+                      What had seemed like a very casual project development plan, had turned out to be slightly ambitious and lead to not enough time left in the parts we were most excited for -- polish (game refinement).
+                      
+                    </li>
+                  </ul> 
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Portfolio Modal 5 -->
+        <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+          <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+              <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-secondary text-uppercase mb-0">Techno Beats</h2>
+                  <hr class="star-dark mb-5">
+                  <img class="img-fluid mb-5" src="img/portfolio/TechnoBeatsSS.png" alt="">
+                  <p class="mb-5 lead">
+                    Techno Beats was the second video game project that I was producer for. This game partiicularily was a big project for me as I was working with people I barely knew, 
+                    and wanted to prove to myself I could lead a successful game project. We landed on making a bullet hell game with game mechanics centered around the music, which landed really well with me, inspiring me to continually work harder.
+                    </p>
+                    <p class="h4">
+                      Challenges with this project were: 
+                    </p>
+                    <ul class="pre h5 mb-5">
+                      <li class="li">
+                        <B>Co-workers:</B> 
+                        This year working with people that were not yet friends, we all had to learn about each others strengths and weaknessess. 
+                        Unfortunately, I had not forseen a co-worker feeling like they had to steal others work to complete assignments and make due dates. 
+                        This meant a month's labor from this person had to be thrown out because we couldn't tell what had been copied and what was orginal ideas.
+                        Later in the year we lost our lead programmer because they wanted to join a more ambitious project, and due to my poor decisions, we were left
+                         with sections of code that were unparsable to the team as I had given the lead programmer lots of creative leeway to maintain there interest in a project 
+                         that they were not very interested in(Their game idea was not chosen for our project). Our team suffered from my choices and 
+                    </ul> 
+                  <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                    <i class="fa fa-close"></i>
+                    Close Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
     <!-- Contact Section -->
-    <div id="contact"></div>
+    <section id="contact">
+  <div class="container">
+    <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+    <hr class="star-dark mb-5">
+    <div class="row">
+      <div class="col-lg-24 mx-auto">
+        <a class="lead text-center " href="./Resume_Human_2020-01-01.pdf"  target="_blank">Click here for my resume with contact info</a>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- Footer -->
-    <div id="footer"></div>
+    <footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mb-5 mb-lg-0">
+        <h4 class="text-uppercase mb-4">Around the Web</h4>
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fa fa-fw fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fa fa-fw fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fa fa-fw fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="copyright py-4 text-center text-white">
+  <div class="container">
+    <small>Copyright &copy; Blackrock Digital LLC</small>
+  </div>
+</div>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-to-top d-lg-none position-fixed ">
+  <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -60,9 +415,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/loadPage.js"></script>
+    <!-- <script src="js/loadPage.js"></script> -->
 
 
   </body>
