@@ -338,7 +338,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #2C3E50;
 }
 
 .btn {
@@ -380,4 +380,9 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.btn-git{
+  background-color: #F1502F;
+  color: #FFF;
 }
